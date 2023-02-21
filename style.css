@@ -117,3 +117,37 @@ p {
     font-size: 18px;
     font-weight: bold;
 }
+
+.container-4 {
+    margin: 200px ;
+    background-color: rgb(35, 35, 228);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    
+}
+.container-4__heading h3 {
+    margin: 0;
+    padding: 0;
+}
+.container-4__heading {
+    font-size: 30px;
+    color: #f9faf8;
+}
+
+.container-4__button {
+    align-self: center;
+}
+
+.container-4__button button {
+    border-style: solid;
+    border-color: #f9faf8;
+    padding: 15px 40px;
+}
+
+.container-4__heading p {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+}
