@@ -87,6 +87,7 @@ img{
     display: flex;
     justify-content:center;
     gap: 70px;
+    margin-bottom: 100px;
 }
 
 .heading {
@@ -97,4 +98,22 @@ img{
 
 p {
     margin-top: 10px;
+}
+
+.container-3 {
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.writer {
+    text-align: end;
+    font-size: 18px;
+    font-weight: bold;
 }
