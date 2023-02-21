@@ -43,7 +43,6 @@ a {
 }
 .image {
     margin-left: 50px;
-    background-color: rgb(112, 112, 125);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,4 +64,37 @@ button {
     border-radius: 15px;
     padding: 15px 30px;
 
+}
+
+.image img {
+    width: 750px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.blog-1, .blog-2, .blog-3, .blog-4 {
+    height: 300px;
+    width: 250px;
+    text-align: center;
+}
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.blog {
+    display: flex;
+    justify-content:center;
+    gap: 70px;
+}
+
+.heading {
+    font-size: 36px;
+    text-align: center;
+    margin: 50px;
+}
+
+p {
+    margin-top: 10px;
 }
